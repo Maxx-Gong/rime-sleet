@@ -1,0 +1,40 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# 根據個人日常使用積累的詞庫
+#
+# Created by MessTG2333
+#
+
+---
+name: custom
+version: "0.1"
+sort: by_weight
+...
+
+凍雨拼音	dong yu pin yin	100
+含部分	han bu fen	100
+更常用	geng chang yong	100
+默秒全	mo miao quan	100
+二创角色	er chuang jue se	100
+二创人物	er chuang ren wu	100
+二创内容	er chuang nei rong	100
+破主意	po zhu yi	100
+似了	si le	100
+似人	si ren	100
+疑似有点	yi si you dian	100
+唾弃憎恶	tuo qi zeng wu	100
+深居內陆	shen ju nei lu	100
+迫真	po zhen	100
+大嘘	da xu	100
+望周知	wang zhou zhi	100
+完卖	wan mai	100
+完売	wan mai	200
+难评	nan ping	100
+急乐典孝绷	ji le dian xiao beng	100
+赢润麻摆寄	ying run ma bai ji	100
+动帧格	dong zhen ge	100
+镆䥺剑	mo ye jian	100
+擸㩑	la sa	100
+你按	ni an	75
+在麼	zai me	100

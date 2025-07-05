@@ -1,0 +1,813 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# 爲方便東方眾交流而作的詞庫.
+#
+# Created by MessTG2333
+#
+# 詞條來源: THBWiki, Touhou Wiki, 萌百
+#
+# 註:
+# 1. 某些詞條或許咊 THBWiki 上的略有出入. 如 人偶 -> 人形 (原因是人形其實更常用)
+# 2. 英文名統一使用英文書寫, 輸入譯名的拼音將無灋輸入. 如不能輸入 "xi sheng zi sha xie yi" 得到 "犠牲「スーサイドパクト」", 而需要輸入 "xi sheng suicide pact".
+
+---
+name: touhou
+version: "0.1"
+sort: by_weight
+...
+
+# 常用詞 (含memes)
+东方	dong fang	1000
+车万	dong fang	900
+东方	touhou	1000
+车万	touhou	900
+东方Project	dong fang project	200
+东方Project	touhou project	200
+西方Project	xi fang project	200
+西方Project	seihou project	200
+东方众	dong fang zhong	100
+车万人	che wan ren	100
+车车人	che che ren	100
+ZUN	zun	100
+太田顺也	zun	100
+神主	zun	100
+博丽神主	zun	100
+太田顺也	tai tian shun ye	100
+神主	shen zhu	100
+博丽神主	bo li shen zhu	100
+上海爱丽丝幻乐团	shang hai ai li si huan yue tuan	100
+ZUNSoft	zunsoft	100
+黄昏边境	huang hun bian jing	100
+黄昏フロンティア	huang hun bian jing	100
+ZUNSoft	zunsoft	100
+博丽	bo li	100
+整数作	zheng shu zuo	100
+小数作	xiao shu zuo	100
+黄昏作	huang hun zuo	100
+旧五作	jiu wu zuo	100
+THBWiki	thbwiki	100
+Touhou Wiki	touhou wiki	100
+ふもふも	fumo	100
+
+
+# 官方遊戲
+# 整數作
+东方红魔乡	dong fang hong mo xiang	1000
+東方紅魔郷	dong fang hong mo xiang	500
+红魔乡	hong mo xiang	1000
+紅魔郷	hong mo xiang	500
+東方紅魔郷　～ the Embodiment of Scarlet Devil.	dong fang hong mo xiang	300
+东方妖妖梦	dong fang yao yao meng	1000
+東方妖々夢	dong fang yao yao meng	500
+妖妖梦	yao yao meng	1000
+妖々夢	yao yao meng	500
+東方妖々夢　～ Perfect Cherry Blossom.	dong fang yao yao meng	300
+东方永夜抄	dong fang yong ye chao	1000
+東方永夜抄	dong fang yong ye chao	500
+永夜抄	yong ye chao	1000
+永夜抄	yong ye chao	500
+東方永夜抄　～ Imperishable Night.	dong fang yong ye chao	300
+东方花映塚	dong fang hua ying zhong	1000
+東方花映塚	dong fang hua ying zhong	500
+花映塚	hua ying zhong	1000
+花映塚	hua ying zhong	500
+東方花映塚　～ Phantasmagoria of Flower View.	dong fang hua ying zhong	300
+东方风神录	dong fang feng shen lu	1000
+東方風神録	dong fang feng shen lu	500
+风神录 feng shen lu	1000
+風神録	feng shen lu	500
+東方風神録　～ Mountain of Faith.	dong fang feng shen lu	300
+东方地灵殿	dong fang di ling dian	1000
+東方地霊殿	dong fang di ling dian	500
+地灵殿	di ling dian	1000
+地霊殿	di ling dian	500
+東方地霊殿　～ Subterranean Animism.	dong fang di ling dian	300
+东方星莲船	dong fang xing lian chuan	1000
+東方星蓮船	dong fang xing lian chuan	500
+星莲船	xing lian chuan	1000
+星蓮船	xing lian chuan	500
+東方星蓮船　～ Undefined Fantastic Object.	dong fang xing lian chuan	300
+东方神灵庙	dong fang shen ling miao	1000
+東方神霊廟	dong fang shen ling miao	500
+神灵庙	shen ling miao	1000
+神霊廟	shen ling miao	500
+東方神霊廟　～ Ten Desires.	dong fang shen ling miao	300
+东方辉针城	dong fang hui zhen cheng	1000
+東方輝針城	dong fang hui zhen cheng	500
+辉针城	hui zhen cheng	1000
+輝針城	hui zhen cheng	500
+東方輝針城　～ Double Dealing Character.	dong fang hui zhen cheng	300
+东方绀珠传	dong fang gan zhu chuan	1000
+東方紺珠伝	dong fang gan zhu chuan	500
+绀珠传	gan zhu chuan	1000
+紺珠伝	gan zhu chuan	500
+東方紺珠伝　～ Legacy of Lunatic Kingdom.	dong fang gan zhu chuan	300
+东方天空璋	dong fang tian kong zhang	1000
+東方天空璋	dong fang tian kong zhang	500
+天空璋	tian kong zhang	1000
+天空璋	tian kong zhang	500
+東方天空璋　～ Hidden Star in Four Seasons.	dong fang tian kong zhang	300
+东方鬼形兽	dong fang gui xing shou	1000
+東方鬼形獣	dong fang gui xing shou	500
+鬼形兽	gui xing shou	1000
+鬼形獣	gui xing shou	500
+東方鬼形獣　～ Wily Beast and Weakest Creature.	dong fang gui xing shou	300
+东方虹龙洞	dong fang hong long dong	1000
+東方虹龍洞	dong fang hong long dong	500
+虹龙洞	hong long dong	1000
+虹龍洞	hong long dong	500
+東方虹龍洞　～ Unconnected Marketeers.	dong fang hong long dong	1000
+东方兽王园	dong fang shou wang yuan	1000
+東方獣王園	dong fang shou wang yuan	500
+兽王园	shou wang yuan	1000
+獣王園	shou wang yuan	500
+東方獣王園　〜 Unfinished Dream of All Living Ghost.	dong fang shou wang yuan	300
+
+# 小數作
+东方萃梦想	dong fang cui meng xiang	1000
+東方萃夢想	dong fang cui meng xiang	500
+萃梦想	cui meng xiang	1000
+萃夢想	cui meng xiang	500
+東方萃夢想　～ Immaterial and Missing Power.	dong fang cui meng xiang	300
+东方文花帖	dong fang wen hua tie	1000
+東方文花帖	dong fang wen hua tie	500
+文花帖	wen hua tie	1000
+文花帖	wen hua tie	500
+東方文花帖　～ Shoot the Bullet.	dong fang wen hua tie	300
+东方绯想天	dong fang fei xiang tian	1000
+東方緋想天	dong fang fei xiang tian	500
+绯想天	fei xiang tian	1000
+緋想天	fei xiang tian	500
+東方緋想天　～ Scarlet Weather Rhapsody.	dong fang fei xiang tian	300
+东方非想天则	dong fang fei xiang tian ze	1000
+東方非想天則	dong fang fei xiang tian ze	500
+非想天则	fei xiang tian ze	1000
+非想天則	fei xiang tian ze	500
+東方非想天則　～ 超弩級ギニョルの謎を追え	dong fang fei xiang tian ze	300
+东方文花帖DS	dong fang wen hua tie ds	1000
+東方文花帖DS	dong fang wen hua tie ds	500
+文花帖DS	wen hua tie ds	1000
+文花帖DS	wen hua tie ds	500
+ダブルスポイラー　～ 東方文花帖	dong fang wen hua tie ds	300
+妖精大战争	yao jing da zhan zheng	1000
+妖精大戦争	yao jing da zhan zheng	500
+东方三月精	dong fang san yue jing	1000
+東方三月精	dong fang san yue jing	500
+妖精大戦争　～ 東方三月精	yao jing da zhan zheng	300
+妖精大戦争　～ 東方三月精	dong fang san yue jing	300
+东方心绮楼	dong fang xin qi lou	1000
+東方心綺楼	dong fang xin qi lou	500
+心绮楼	xin qi lou	1000
+心綺楼	xin qi lou	500
+東方心綺楼　～ Hopeless Masquerade.	dong fang xin qi lou	300
+弹幕天邪鬼	dan mu tian xie gui	1000
+弾幕アマノジャク	dan mu tian xie gui	500
+天邪鬼	tian xie gui	1000
+アマノジャク	tian xie gui	500
+弾幕アマノジャク　～ Impossible Spell Card.	dan mu tian xie gui	300
+东方深秘录	dong fang shen mi lu	1000
+東方深秘録	dong fang shen mi lu	500
+深秘录	shen mi lu	1000
+深秘録	shen mi lu	500
+東方深秘録　～ Urban Legend in Limbo.	dong fang shen mi lu	300
+东方凭依华	dong fang ping yi hua	1000
+東方憑依華	dong fang ping yi hua	500
+凭依华	ping yi hua	1000
+憑依華	ping yi hua	500
+東方憑依華　～ Antinomy of Common Flowers.	dong fang ping yi hua	300
+秘封噩梦日记	mi feng e meng ri ji	1000
+秘封ナイトメアダイアリー	mi feng e meng ri ji	500
+噩梦日记	e meng ri ji	1000
+ナイトメアダイアリー	e meng ri ji	500
+秘封ナイトメアダイアリー　～ Violet Detector.	mi feng e meng ri ji	300
+东方刚欲异闻	dong fang gang yu yi wen	1000
+東方剛欲異聞	dong fang gang yu yi wen	500
+刚欲异闻	gang yu yi wen	1000
+剛欲異聞	gang yu yi wen	500
+東方剛欲異聞　～ 水没した沈愁地獄	dong fang gang yu yi wen	300
+弹幕狂们的黑市	dan mu kuang men de hei shi	1000
+バレットフィリア達の闇市場	dan mu kuang men de hei shi	500
+バレットフィリア達の闇市場　～ 100th Black Market.	dan mu kuang men de hei shi	300
+
+# 旧五作
+东方灵异传	dong fang ling yi zhuan	1000
+東方靈異伝	dong fang ling yi zhuan	500
+灵异传	ling yi zhuan	1000
+靈異伝	ling yi zhuan	500
+東方靈異伝　～ Highly Responsive to Prayers.	dong fang ling yi zhuan	300
+东方封魔录	dong fang feng mo lu	1000
+東方封魔録	dong fang feng mo lu	500
+封魔录	feng mo lu	1000
+封魔録	feng mo lu	500
+東方封魔録　～ the Story of Eastern Wonderland.	dong fang feng mo lu	300
+东方梦时空	dong fang meng shi kong	1000
+東方夢時空	dong fang meng shi kong	500
+梦时空	meng shi kong	1000
+夢時空	meng shi kong	500
+東方夢時空　～ Phantasmagoria of Dim.Dream.	dong fang meng shi kong	300
+东方幻想乡	dong fang huan xiang xiang	1000
+東方幻想郷	dong fang huan xiang xiang	500
+幻想乡	huan xiang xiang	1000
+幻想郷	huan xiang xiang	500
+東方幻想郷　～ Lotus Land Story.	dong fang huan xiang xiang	300
+东方怪绮谈	dong fang guai qi tan	1000
+東方怪綺談	dong fang guai qi tan	500
+怪绮谈	guai qi tan	1000
+怪綺談	guai qi tan	500
+東方怪綺談　～ Mystic Square.	dong fang guai qi tan	300
+
+
+# 官方角色
+# 靈夢
+博丽灵梦	bo li ling meng	300
+博麗霊夢	bo li ling meng	100
+灵梦	ling meng	300
+霊夢	ling meng	100
+红白巫女	hong bai wu nv	100
+赤色杀人魔	chi se sha ren mo	100
+腋巫女	ye wu nv	100
+十万巫女	shi wan wu nv	100
+无节操	wu jie cao	100
+薄利零梦	bo li ling meng	50
+幻想乡城管	huan xiang xiang cheng guan	100
+勃力♂灵梦	bo li ling meng	50
+博丽神社的巫女小姐	bo li shen she de wu nv xiao jie	300
+博麗神社の巫女さん	bo li shen she de wu nv xiao jie	100
+永远之巫女	yong yuan zhi wu nv	300
+永遠の巫女	yong yuan zhi wu nv	100
+乐园的可爱巫女	le yuan de ke ai wu nv	300
+楽園の素敵な巫女	le yuan de ke ai wu nv	100
+乐园的可爱巫女小姐	le yuan de ke ai wu nv xiao jie	300
+楽園の素敵な巫女さん	le yuan de ke ai wu nv xiao jie	100
+乐园的巫女	le yuan de wu nv	300
+楽園の巫女	le yuan de wu nv	100
+快晴的巫女	kuai qing de wu nv	300
+快晴の巫女	kuai qing de wu nv	100
+飞翔于天空的不可思议的巫女	fei xiang yu tian kong de bu ke si yi de wu nv	300
+空を飛ぶ不思議な巫女	fei xiang yu tian kong de bu ke si yi de wu nv	100
+空飛ぶ不思議な巫女	fei xiang yu tian kong de bu ke si yi de wu nv	100
+五欲的巫女	wu yu de wu nv	300
+五欲の巫女	wu yu de wu nv	100
+八百万神的代言人	ba bai wan shen de dai yan ren	300
+八百万の代弁者	ba bai wan shen de dai yan ren	100
+结界的巫女	jie jie de wu nv	300
+結界の巫女	jie jie de wu nv	100
+终结异变的巫女	zhong jie yi bian de wu nv	300
+異変を終わらせる巫女	zhong jie yi bian de wu nv	100
+自由奔放且毫无计划的巫女	zi you ben fang qie hao wu ji hua de wu nv	300
+自由奔放で無計画な巫女	zi you ben fang qie hao wu ji hua de wu nv	100
+春阳下无忧无虑的巫女	chun yang xia wu you wu lv de wu nv	300
+春の陽に暢気な巫女	chun yang xia wu you wu lv de wu nv	100
+小夜时雨的巫女	xiao ye shi yu de wu nv	300
+小夜時雨の巫女	xiao ye shi yu de wu nv	100
+对黑市毫无兴趣	dui hei shi hao wu xing qu	300
+闇市場には興味が無い	dui hei shi hao wu xing qu	100
+降伏畜生的巫女	xiang fu chu sheng de wu nv	300
+畜生調伏の巫女	xiang fu chu sheng de wu nv	100
+博丽神社巫女	bo li shen she wu nv	300
+博麗神社巫女	bo li shen she wu nv	100
+自由奔放的人类	zi you ben fang de ren lei	300
+自由奔放な人間	zi you ben fang de ren lei	100
+乐园的可爱萨满	le yuan de ke ai sa man	300
+楽園の素敵なシャーマン	le yuan de ke ai sa man	100
+御神酒的守护者	yu shen jiu de shou hu zhe	300
+御神酒の守護者	yu shen jiu de shou hu zhe	100
+乐园的巫女侦探	le yuan de wu nv zhen tan	300
+楽園の巫女探偵	le yuan de wu nv zhen tan	100
+
+# 魔理沙
+雾雨魔理沙	wu yu mo li sha	300
+霧雨魔理沙	wu yu mo li sha	100
+魔理沙	mo li sha	300
+魔理沙	mo li sha	100
+老鼠	lao shu	100
+黑白老鼠	hei bai lao shu	100
+黑白	hei bai	100
+莎莎	sha sha	100
+沙沙	sha sha	100
+摸你傻	mo ni sha	100
+金发小女孩	jin fa xiao nv hai	100
+可怜的金发小女孩	ke lian de jin fa xiao nv hai	100
+金可怜	jin ke lian	100
+魔胖子	mo pang zi	100
+魔梨沙	mo li sha	50
+云里雾里沙	yun li wu li sha	100
+从不偷东西的魔法使	cong bu tou dong xi de mo fa shi	100
+东洋的西洋魔术师	dong yang de xi yang mo shu shi	300
+東洋の西洋魔術師	dong yang de xi yang mo shu shi	100
+奇妙的魔法使	qi miao de mo fa shi	300
+奇妙な魔法使い	qi miao de mo fa shi	100
+普通的黑魔术少女	pu tong de hei mo shu shao nv	300
+普通の黒魔術少女	pu tong de hei mo shu shao nv	100
+普通的黑魔术师	pu tong de hei mo shu shi	300
+普通の黒魔術師	pu tong de hei mo shu shi	100
+普通的魔法使	pu tong de mo fa shi	300
+普通の魔法使い	pu tong de mo fa shi	100
+雾雨的魔法使	wu yu de mo fa shi	300
+霧雨の魔法使い	wu yu de mo fa shi	100
+普通的魔法使小姐	pu tong de mo fa shi xiao jie	300
+普通の魔法使いさん	pu tong de mo fa shi xiao jie	100
+路过的魔法使	lu guo de mo fa shi	300
+通りすがりの魔法使い	lu guo de mo fa shi	100
+强欲的魔法使	qiang yu de mo fa shi	300
+強欲の魔法使い	qiang yu de mo fa shi	100
+代表人类的魔法使	dai biao ren lei de mo fa shi	300
+人間代表の魔法使い	dai biao ren lei de mo fa shi	100
+像个人类的魔法使	xiang ge ren lei de mo fa shi	300
+人間らしい魔法使い	xiang ge ren lei de mo fa shi	100
+学校的魔法使	xue xiao de mo fa shi	300
+学校の魔法使い	xue xiao de mo fa shi	100
+火力高强且喜欢星星的魔法使	huo li gao qiang qie xi huan xing xing de mo fa shi	300
+高火力で星好きな魔法使い	huo li gao qiang qie xi huan xing xing de mo fa shi	100
+极寒中颤抖的魔法使	ji han zhong chan dou de mo fa shi	300
+極寒に震える魔法使い	ji han zhong chan dou de mo fa shi	100
+普通至极的魔法使	pu tong zhi ji de mo fa shi	300
+至極普通の魔法使い	pu tong zhi ji de mo fa shi	100
+湿地的魔法使	shi di de mo fa shi	300
+湿地の魔法使い	shi di de mo fa shi	100
+最强灵长类魔法使	zui qiang ling zhang lei mo fa shi	300
+霊長類最強の魔法使い	zui qiang ling zhang lei mo fa shi	100
+大胆小心的人类	da dan xiao xin de ren lei	300
+大胆小心な人間	da dan xiao xin de ren lei	100
+极其普通的魔法师	ji qi pu tong de mo fa shi	300
+極めて普通のマジシャン	ji qi pu tong de mo fa shi	100
+魔法森林的私酿酒	mo fa sen lin de si niang jiu	300
+魔法の森の密造酒	mo fa sen lin de si niang jiu	100
+森林的魔法侦探	sen lin de mo fa zhen tan	300
+森の魔法探偵	sen lin de mo fa zhen tan	100
+
+# 㤅麗絲
+爱丽丝·玛格特洛依德	ai li si ma ge te luo yi de	300
+アリス・マーガトロイド	ai li si ma ge te luo yi de	100
+爱丽丝	ai li si	300
+アリス	ai li si	100
+玛格特洛依德	ma ge te luo yi de	300
+玛格特罗伊德	ma ge te luo yi de	200
+マーガトロイド	ma ge te luo yi de	100
+爱丽丝·威震天	ai li si wei zhen tian	100
+七色的人偶师	qi se de ren ou shi	300
+七色の人形使い	qi se de ren ou shi	100
+七色的人偶使	qi se de ren ou shi	300
+七色の人形遣い	qi se de ren ou shi	100
+使用人偶的魔法使	shi yong ren ou de mo fa shi	300
+人の形を遣う魔法使い	shi yong ren ou de mo fa shi	100
+光凭外表是十分爽朗的妖怪	guang ping wai biao shi shi fen shuang lang de yao guai	300
+見た目だけ賑やかな妖怪	guang ping wai biao shi shi fen shuang lang de yao guai	100
+雹之人偶使	bao zhi ren ou shi	300
+雹の人形遣い	bao zhi ren ou shi	100
+
+# 露米婭
+露米娅	lu mi ya	300
+ルーミア	lu mi ya	100
+⑩	lu mi ya	50
+宵暗的妖怪	xiao an de yao guai	300
+宵闇の妖怪	xiao an de yao guai	100
+潜伏在黑暗中的妖怪	qian fu zai hei an zhong de yao guai	300
+暗闇に潜む妖怪	qian fu zai hei an zhong de yao guai	100
+
+# 大妖精
+大妖精	da yao jing	300
+大妖精	da yao jing	100
+大酱	da jiang	100
+
+# 琪露諾
+琪露诺	qi lu nuo	300
+チルノ	qi lu nuo	100
+⑨	qi lu nuo	50
+バカ	baka	100
+湖上的冰精	hu shang de bing jing	300
+湖上の氷精	hu shang de bing jing	100
+冰之妖怪	bing zhi yao guai	300
+氷の妖怪	bing zhi yao guai	100
+冰之小妖精	bing zhi xiao yao jing	300
+氷の小さな妖精	bing zhi xiao yao jing	100
+不自然的冷气	bu zi ran de leng qi	300
+不自然な冷気	bu zi ran de leng qi	100
+湖的冰精	hu de bing jing	300
+湖の氷精	hu de bing jing	100
+烈日下不融的冰精	lie ri xia bu rong de bing jing	300
+溶けない炎天下の氷精	lie ri xia bu rong de bing jing	100
+天真即正义	tian zhen ji zheng yi	300
+無邪気は正義	tian zhen ji zheng yi	100
+
+# 紅美鈴
+红美铃	hong mei ling	300
+紅美鈴	hong mei ling	100
+中国	zhong guo	100
+红师傅	hong shi fu	100
+斯卡雷特家的花女仆	si ka lei te jia de hua nv pu	100
+华人小姑娘	hua ren xiao gu niang	300
+華人小娘	hua ren xiao gu niang	100
+色彩艳丽的门卫	se cai yan li de men wei	300
+色鮮やかに虹色な門番	se cai yan li de men wei	100
+红魔馆的门卫	hong mo guan de men wei	300
+紅魔館の門番	hong mo guan de men wei	100
+
+# 帕秋莉·諾蕾姬
+帕秋莉·诺蕾姬	pa qiu li nuo lei ji	300
+パチュリー・ノーレッジ	pa qiu li nuo lei ji	100
+帕秋莉	pa qiu li	300
+パチュリー	pa qiu li	100
+姆Q	mu q	90
+帕琪	pa qi	90
+广藿香	guang huo xiang	100
+知识与避世的少女	zhi shi yu bi shi de shao nv	300
+知識と日陰の少女	zhi shi yu bi shi de shao nv	100
+不动的大图书馆	bu dong de da tu shu guan	300
+動かない大図書館	bu dong de da tu shu guan	100
+不明的魔法之元	bu ming de mo fa zhi yuan	300
+得体の知れない魔法の元	bu ming de mo fa zhi yuan	100
+花昙的魔女	hua tan de mo nv	300
+花曇の魔女	hua tan de mo nv	100
+红魔馆的魔女	hong mo guan de mo nv	300
+紅魔館の魔女	hong mo guan de mo nv	100
+动不了的大图书馆的魔女	dong bu liao de da tu shu guan de mo nv	300
+動けない大図書館の魔女	dong bu liao de da tu shu guan de mo nv	100
+
+# 十六夜咲夜
+十六夜咲夜	shi liu ye xiao ye	300
+十六夜咲夜	shi liu ye xiao ye	100
+PAD长	pad zhang	100
+女仆长	nv pu zhang	100
+红魔馆的女仆	hong mo guan de nv pu	300
+紅魔館のメイド	hong mo guan de nv pu	100
+完美而潇洒的从者	wan mei er xiao sa de cong zhe	300
+完全で瀟洒な従者	wan mei er xiao sa de cong zhe	100
+完美而潇洒的女仆	wan mei er xiao sa de nv pu	300
+完全で瀟洒なメイド	wan mei er xiao sa de nv pu	100
+危险的戏法家	wei xian de xi fa jia	300
+危険な手品師	wei xian de xi fa jia	100
+小夜岚的女仆	xiao ye lan de nv pu	300
+小夜嵐のメイド	xiao ye lan de nv pu	100
+红色恶魔的女仆	hong se e mo de nv pu	300
+紅い悪魔のメイド	hong se e mo de nv pu	100
+潇洒的女仆	xiao sa de nv pu	300
+瀟洒なメイド	xiao sa de nv pu	100
+即使能停止时间也会好好付钱	ji shi neng ting zhi shi jian ye hui hao hao fu qian	300
+時を止めてもちゃんと買います	ji shi neng ting zhi shi jian ye hui hao hao fu qian	100
+电光石火的女仆	dian guang shi huo de nv pu	300
+電光石火のメイド	dian guang shi huo de nv pu	100
+吸血鬼的女仆	xi xue gui de nv pu	300
+吸血鬼のメイド	xi xue gui de nv pu	100
+红魔馆的酗酒主妇	hong mo guan de xu jiu zhu fu	300
+紅魔館のキッチンドリンカー	hong mo guan de xu jiu zhu fu	100
+
+# 蕾米莉亞·斯卡蕾特
+蕾米莉亚·斯卡蕾特	lei mi li ya si ka lei te	300
+レミリア・スカーレット	lei mi li ya si ka lei te	200
+蕾米莉亚·威严满满·抱头蹲防·斯卡蕾特	lei mi li ya si ka lei te	100
+蕾咪	lei mi	100
+大小姐	da xiao jie	100
+威严	wei yan	100
+胃炎	wei yan	100
+永远鲜红的幼月	yong yuan xian hong de you yue	300
+永遠に紅い幼き月	yong yuan xian hong de you yue	100
+永远赤红的幼月	yong yuan chi hong de you yue	300
+永遠に赤い幼き月	yong yuan chi hong de you yue	100
+鲜红的恶魔	xian hong de e mo	300
+紅い悪魔	xian hong de e mo	100
+浓雾的吸血鬼	nong wu de xi xue gui	300
+濃霧の吸血鬼	nong wu de xi xue gui	100
+深红的夜行性恶魔	shen hong de ye xing xing e mo	300
+紅色のノクターナルデビル	shen hong de ye xing xing e mo	100
+红魔馆的吸血鬼	hong mo guan de xi xue gui	300
+紅魔館の吸血鬼	hong mo guan de xi xue gui	100
+
+# 芙蘭朵露·斯卡蕾特
+芙兰朵露·斯卡蕾特	fu lan duo lu si ka lei te	300
+フランドール・スカーレット	fu lan duo lu si ka lei te	100
+芙兰	fu lan	100
+二小姐	er xiao jie	100
+二妹	er mei	100
+兰兰露	lan lan lu	90
+绿钻镯子	lv zuan zhuo zi	100
+圣枪哥	sheng qiang ge	100
+西红柿炒鸡蛋	xi hong shi chao ji dan	100
+恶魔之妹	e mo zhi mei	300
+悪魔の妹	e mo zhi mei	100
+可怕的波动	ke pa de bo dong	300
+恐ろしい波動	ke pa de bo dong	100
+鲜红血液的恶魔	xian hong xue ye de e mo	300
+紅い血液の悪魔	xian hong xue ye de e mo	100
+吸血鬼的破坏性妹妹	xi xue gui de po huai xing mei mei	300
+吸血鬼の破滅的な妹	xi xue gui de po huai xing mei mei	100
+
+# 冴月麟
+冴月麟	hu yue lin	300
+冴月麟	hu yue lin	100
+阿卡麟	a ka lin	100
+
+# 蕾蒂·霍瓦特洛克
+蕾蒂·霍瓦特洛克	lei di huo wa te luo ke	300
+レティ・ホワイトロック	lei di huo wa te luo ke	100
+⑨媽	jiu ma	90
+梅莉	mei li	90
+修普	xiu pu	100
+SGGK	sggk	100
+横纲	heng gang	100
+冬天的遗忘之物	dong tian de yi wang zhi wu	300
+冬の忘れ物	dong tian de yi wang zhi wu	100
+局部性的大寒潮	ju bu xing de da han chao	300
+局所的な大寒波	ju bu xing de da han chao	100
+冬之妖怪	dong zhi yao guai	300
+冬の妖怪	dong zhi yao guai	100
+
+# (八雲)橙
+橙	cheng	300
+橙	cheng	100
+八云橙	ba yun cheng	300
+八雲橙	ba yun cheng	100
+橙喵	cheng miao	100
+凶兆的黑猫	xiong zhao de hei mao	300
+凶兆の黒猫	xiong zhao de hei mao	100
+间隙妖怪的式神的式神	jian xi yao guai de shi shen de shi shen	300
+すきま妖怪の式の式	jian xi yao guai de shi shen de shi shen	100
+用眼也捕捉不到的妖怪猫	yong yan ye bu zhuo bu dao de yao guai mao	300
+目にも留まらない化猫	yong yan ye bu zhuo bu dao de yao guai mao	100
+
+# 莉莉霍瓦特
+莉莉霍瓦特	li li huo wa te	300
+リリーホワイト	li li huo wa te	100
+莉莉白	li li bai	300
+叫春精	jiao chun jing	100
+白百合	bai bai he	100
+满脑子春的妖精	man nao zi chun de yao jing	100
+运送春天的妖精	yun song chun tian de yao jing	300
+春を運ぶ妖精	yun song chun tian de yao jing	100
+
+# 露娜薩·普莉茲姆利巴
+露娜萨·普莉兹姆利巴	lu na sa pu li zi mu li ba	300
+ルナサ・プリズムリバー	lu na sa pu li zi mu li ba	100
+骚灵大姊	sao ling da zi	100
+骚灵提琴手	sao ling ti qin shou	100
+騒霊ヴァイオリニスト	sao ling ti qin shou	100
+
+# 洩矢諏訪子
+洩矢诹访子	xie shi zou fang zi	300
+洩矢諏訪子	xie shi zou fang zi	100
+
+
+# 旧作角色
+玄爷	xuan ye	300
+玄爺	xuan ye	100
+
+
+# 二創角色
+# 靑靈夢
+青灵梦	qing ling meng	100
+蓝灵梦	lan ling meng	100
+
+
+# CP
+
+
+# 能力
+操纵灵气的能力	cao zong ling qi de neng li	100
+在空中飞行程度的能力	zai kong zhong fei xing cheng du de neng li	100
+主要拥有在空中飞翔程度的能力	zhu yao yong you zai kong zhong fei xiang cheng du de neng li	100
+操纵魔法程度的能力	cao zong mo fa cheng du de neng li	100
+使用魔法程度的能力	shi yong mo fa cheng du de neng li	100
+主要拥有使用魔法程度的能力	zhu yao yong you shi yong mo fa cheng du de neng li	100
+操控人偶程度的能力	cao kong ren ou cheng du de neng li	100
+操纵黑暗程度的能力	cao zong hei an cheng du de neng li	100
+
+
+
+# 道具
+阴阳玉	yin yang yu	100
+驱魔针	qu mo zhen	100
+驱魔棒	qu mo bang	100
+祓杖	fu zhang	100
+御币	yu bi	100
+魔法之帚	mo fa zhi zhou	100
+八卦炉	ba gua lu	100
+迷你八卦炉	mi ni ba gua lu	100
+魔导书	mo dao shu	100
+玉造魅须丸	yu zao mei xu wan	100
+
+
+# 種族
+人类	ren lei	100
+魔法使	mo fa shi	100
+妖怪	yao guai	100
+恶魔	e mo	100
+魔女	mo nv	100
+吸血鬼	xi xue gui	100
+妖兽	yao shou	100
+骚灵	sao ling	100
+幽灵  you ling	100
+河童  he tong	100
+龟	gui	100
+
+
+
+# 異變
+红雾异变	hong wu yi bian	100
+春雪异变	chun xue yi bian	100
+花之异变	hua zhi yi bian	100
+
+
+# 符卡
+# 㤅麗絲·瑪格特洛依德
+操符「Marionette Parrar」	cao fu marionette parrar	0
+操符「マリオネットパラル」	cao fu marionette parrar	0
+操符「Manipulate Puppet」	cao fu manipulate puppet	0
+操符「マニピュレイトパペット」	cao fu manipulate puppet	0
+操符「少女文乐」	cao fu shao nv wen le	0
+操符「乙女文楽」	cao fu shao nv wen le	0
+苍符「博爱的法兰西人形」	cang fu bo ai de fa lan xi ren xing	0
+蒼符「博愛の仏蘭西人形」	cang fu bo ai de fa lan xi ren xing	0
+苍符「博爱的奥尔良人形」	cang fu bo ai de ao er liang ren xing	0
+蒼符「博愛のオルレアン人形」	cang fu bo ai de ao er liang ren xing	0
+红符「红发的荷兰人形」	hong fu hong fa de he lan ren xing	0
+紅符「紅毛の和蘭人形」	hong fu hong fa de he lan ren xing	0
+白符「白垩的俄罗斯人形」	bai fu bai e de e luo si ren xing	0
+白符「白亜の露西亜人形」	bai fu bai e de e luo si ren xing	0
+暗符「雾之伦敦人形」	an fu wu zhi lun dun ren xing	0
+闇符「霧の倫敦人形」	an fu wu zhi lun dun ren xing	0
+回符「轮回的西藏人形」	hui fu lun hui de xi zang ren xing	0
+廻符「輪廻の西蔵人形」	hui fu lun hui de xi zang ren xing	0
+雅符「春之京都人形」	ya fu chun zhi jing du ren xing	0
+雅符「春の京人形」	ya fu chun zhi jing du ren xing	0
+诅咒「魔彩光的上海人形」	zu zhou mo cai guang de shang hai ren xing	0
+咒詛「魔彩光の上海人形」	zu zhou mo cai guang de shang hai ren xing	0
+诅咒「上吊的蓬莱人形」	zu zhou shang diao de peng lai ren xing	0
+咒詛「首吊り蓬莱人形」	zu zhou shang diao de peng lai ren xing	0
+魔符「Artful Sacrifice」	mo fu artful sacrifice	0
+魔符「アーティフルサクリファイス」	mo fu artful sacrifice	0
+魔操「Return Inanimateness」	mo cao return inanimateness	0
+魔操「リターンイナニメトネス」	mo cao return inanimateness	0
+战符「Little Legion」	zhan fu little legion	0
+戦符「リトルレギオン」	zhan fu little legion	0
+战操「Doll's War」	zhan cao dolls war	0
+戦操「ドールズウォー」	zhan cao dolls war	0	
+咒符「上海人形」	zhou fu shang hai ren xing	0
+咒符「上海人形」	zhou fu shang hai ren xing	0
+诅咒「蓬莱人形」	zu zhou peng lai ren xing	0
+咒詛「蓬莱人形」	zu zhou peng lai ren xing	0
+符之一「Artful Chanter」	fu zhi yi artful chanter	0
+符の壱「アーティフルチャンター」	fu zhi yi artful chanter	0
+符之二「Doll Crusader」	fu zhi er doll crusader	0
+符の弐「ドールクルセイダー」	fu zhi er doll crusader	0
+魔光「Devilry Light Ray」	mo guang devilry light ray	0		
+魔光「デヴィリーライトレイ」	mo guang devilry light ray	0
+「Spectre Mistery」	spectre mistery	0
+「猎奇剧团里的怪人」	lie qi ju tuan li de guai ren	0
+「グランギニョル座の怪人」	lie qi ju tuan li de guai ren	0
+操符「Dolls in Sea」	cao fu dolls in sea	0
+操符「ドールズインシー」	cao fu dolls in sea	0
+咒符「Straw Doll Kamikaze」	zhou fu	straw doll kamikaze	0
+呪符「ストロードールカミカゼ」	zhou fu	straw doll kamikaze	0
+赤符「Doll Mira Ceti」	chi fu doll mira ceti	0
+赤符「ドールミラセティ」	chi fu doll mira ceti	0
+侦符「Seeker Dolls」	zhen fu seeker dolls	0
+偵符「シーカードールズ」	zhen fu seeker dolls	0
+红符「荷兰人形」	hong fu he lan ren xing	0
+紅符「和蘭人形」	hong fu he lan ren xing	0
+人形「未来文乐」	ren xing wei lai wen le	0
+人形「未来文楽」	ren xing wei lai wen le	0
+聚焦「Trip Wire」	ju jiao trip wire	0
+注力「トリップワイヤー」	ju jiao trip wire	0
+步兵「Suicide Squad」	bu bing suicide squad	0
+足軽「スーサイドスクワッド」	bu bing suicide squad	0
+剑符「Soldier of Cross」	jian fu soldier of cross	0
+剣符「ソルジャーオブクロス」	jian fu soldier of cross	0
+人形「没有灵魂的民间舞」	ren xing mei you ling hun de min jian wu	0
+人形「魂のないフォークダンス」	ren xing mei you ling hun de min jian wu	0
+「Rainbow Wire」	rainbow wire	0
+「レインボーワイヤー」	rainbow wire	0
+「Remote Sacrifice」	remote	sacrifice	0
+「リモートサクリファイス」	remote	sacrifice	0
+枪符「萌萌大千枪」	qiang fu meng meng da qian qiang	0
+槍符「キューティー大千槍」	qiang fu meng meng da qian qiang	0
+人形「Lemmings' Parade」	ren xing lemmings parade	0
+人形「レミングスパレード」	ren xing lemmings parade	0
+人形「Semi-Automaton」	ren xing semi automaton	0
+人形「セミオートマトン」	ren xing semi automaton	0
+骑士「Doll of Round Table」	qi shi doll of round table	0
+騎士「ドールオブラウンドテーブル」	qi shi doll of round table	0
+牺牲「Suicide Pact」	xi sheng suicide pact	0
+犠牲「スーサイドパクト」	xi sheng suicide pact	0
+试验中「Level Titania」	shi yan zhong level titania	0
+試験中「レベルティターニア」	shi yan zhong level titania	0
+试验中「歌利亚人形」	shi yan zhong ge li ya ren xing	0
+試験中「ゴリアテ人形」	shi yan zhong ge li ya ren xing	0
+
+# 露米婭
+月符「Moonlight Ray」	yue fu moonlight ray	0
+月符「ムーンライトレイ」	yue fu moonlight ray	0
+夜符「Night Bird」	ye fu night bird	0
+夜符「ナイトバード」	ye fu night bird	0
+暗符「Demarcation」an fu demarcation	0
+闇符「ディマーケイション」	an fu demarcation	0
+暗符「Dark Side of the Moon」	an fu dark side of the moon 0
+闇符「ダークサイドオブザムーン」	an fu dark side of the moon 0
+夜符「Midnight Bird」	ye fu midnight bird 0
+夜符「ミッドナイトバード」	ye fu midnight bird 0
+
+
+# 技能
+# 㤅麗絲·瑪格特洛依德
+人形操创	ren xing cao chuang	0
+人形操創	ren xing cao chuang	0
+人形无操	ren xing wu cao	0
+人形無操	ren xing wu cao	0
+人形置操	ren xing zhi cao	0
+人形置操	ren xing zhi cao	0
+人形振起	ren xing zhen qi	0
+人形振起	ren xing zhen qi	0
+人形归巢	ren xing gui chao	0
+人形帰巣	ren xing gui chao	0
+人形火葬	ren xing huo zang	0
+人形火葬	ren xing huo zang	0
+人形千枪	ren xing qian qiang	0
+人形千槍	ren xing qian qiang	0
+人形SP	ren xing sp	0
+人形ＳＰ	ren xing sp	0
+大江户炸药机关人形	da jiang hu zha yao ji guan ren xing	0
+大江戸爆薬からくり人形	da jiang hu zha yao ji guan ren xing	0
+Seeker Wire	seeker wire	0
+シーカーワイヤー	seeker wire	0
+人形伏兵	ren xing fu bing	0
+人形伏兵	ren xing fu bing	0
+人形弓兵	ren xing gong bing	0
+人形弓兵	ren xing gong bing	0
+
+
+# 團軆
+普莉兹姆利巴乐团	pu li zi mu li ba yue tuan	100
+堀莉兹姆利巴乐团	jue li zi mu li ba yue tuan	100
+
+
+# 地點
+幻想乡	huan xiang xiang	100
+博丽神社	bo li shen she	100
+妖怪神社	yao guai shen she	100
+香霖堂	xiang lin tang	100
+魔法森林	mo fa sen lin	100
+雾雨魔法店	wu yu mo fa dian	100
+雾雨邸	wu yu di	100
+雾雨店	wu yu dian	100
+铃奈庵	ling nai an	100
+玛格特洛依德邸	ma ge te luo yi de di	100
+雾之湖	wu zhi hu	100
+红魔馆	hong mo guan	100
+大图书馆	da tu shu guan	100
+妖怪之山	yao guai zhi shan	100
+迷途之家	mi tu zhi jia	100
+妖怪兽道	yao guai shou dao	100
+人里	ren li	100
+人间之里	ren jian zhi li	100
+妖怪兽道	yao guai shou dao	100
+博丽结界	bo li jie jie	100
+博丽大结界	bo li da jie jie	100
+守矢神社	shou shi shen she	100
+命莲寺	ming lian si	100
+地灵殿	di ling dian	100
+白玉楼	bai yu lou	100
+太阳花田	tai yang hua tian	100
+
+
+
+# 官方音樂
+
+
+# 官方書籍
+
+
+# 同人社團
+
+
+# 同人作品
+
+
+# 活動
+
+
+# 梗
+DA☆ZE	daze	100
+抱头蹲防	bao tou dun fang	100
+ZUN帽	zun mao	100
+早苗开海	zao miao kai hai	100
+
+
+# 術語
+异变	yi bian	100
+式神	shi shen	100
+
+
+# 常用工具
+
+
+# 其他
+弹幕	dan mu	100
+弹幕狂	dan mu kuang	100
+是——这样吗——	shi zhe yang ma	70
+そーなのかー	shi zhe yang ma	50
+神道教	shen dao jiao	100
+道教	dao jiao	100
+佛教	fo jiao	100
+海螺小姐时空	hai luo xiao jie shi kong	100
+上海人形	shang hai ren xing	100
+蓬莱人形	peng lai ren xing	100
