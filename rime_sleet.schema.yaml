@@ -356,7 +356,7 @@ cangjie_lookup:
 # 反査拼音濾鏡
 pinyin_reverse_lookup:
   tags: [radical_lookup, cangjie_lookup]
-  dictionary: zdict
+  dictionary: kMandarin
   comment_format: # 自定义 comment，例如在左右加上括号
     - xform/^/(/
     - xform/$/)/
