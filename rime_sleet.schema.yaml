@@ -11,7 +11,7 @@ schema:
     - MessTG2333
   description: |
     凍雨拼音
-    https://github.com/iDvel/rime-ice
+    https://github.com/NobodyHere-rrr/rime-sleet
   dependencies:
     - radical_pinyin # 拆字反査
     - cangjie5 # 倉頡反査
