@@ -88,7 +88,7 @@ engine:
     - lua_filter@*pin_cand_filter # 置顶候选项（顺序要求：置顶候选项 > Emoji > 简繁切换）
     - lua_filter@*long_word_filter # 长词优先（顺序要求：长词优先 > Emoji）
     - simplifier@emoji # 絵文字
-    # - simplifier@kaomoji # 顏文字
+    # - simplifier@kaomoji                         # 顏文字
     - simplifier@s2t # 繁
     - simplifier@s2t_2 # 䋣
     - simplifier@s2tw # 臺
@@ -126,8 +126,6 @@ pin_cand_filter:
   - r	让 人
   - t	他 她 它 祂
   - y	与 于
-  # - u 在 custom_phrase 置顶了 有 🈶 又 由
-  # - i 在 custom_phrase 置顶了 一 以 已 亦
   - o	哦
   - p	片 篇
   - a	啊
@@ -142,10 +140,10 @@ pin_cand_filter:
   - z	在 再 自
   - x	想 像 向
   - c	才 从
-  # - v
   - b	吧 把 呗 百
   - n	那 哪 拿 呐
   - m	吗 嘛 呣 呒
+  - hm	后面 # 置顶一个来覆盖 custom_phrase.txt 噷(hm)
   # 常用单字
   - qing	请
   - qu	去
@@ -283,6 +281,7 @@ translator:
     - xform/([nl])ue/$1üe/ # 显示为 nüe lüe
     # - xform/([nl])v/$1v/ # 显示为 nv lv
     # - xform/([nl])ue/$1ve/ # 显示为 nve lve
+    - xform/(?<=[A-Z])\s(?=[A-Z])// # 消除大写字母之间的空格
 
 # 自定义短语：custom_phrase.txt
 custom_phrase:
@@ -291,7 +290,7 @@ custom_phrase:
   db_class: stabledb # 只读数据库，无法动态调频；设为 tabledb 可以动态调频
   enable_completion: false # 补全提示
   enable_sentence: false # 禁止造句
-  initial_quality: 99 # custom_phrase 的权重应该比
+  initial_quality: 99
 
 # 絵文字
 emoji:
@@ -462,14 +461,19 @@ recognizer:
 key_binder:
   import_preset: default # 从 default.yaml 继承通用的
   search: "`" # 辅码引导符，要添加到 speller/alphabet
-  bindings: # 也可以再增加方案专有的快捷键
-    - { when: composing, accept: "Control+t", set_option: traditionalization }
-    - {
-        when: composing,
-        accept: "Control+Shift+t",
-        set_option: traditionalization_2,
-      }
-    - { when: composing, accept: "Control+p", set_option: ascii_punct }
+  # bindings:             # 也可以再增加方案专有的快捷键
+
+editor:
+  bindings:
+    space: confirm # 空格键：上屏候选项
+    Return: commit_raw_input # 回车键：上屏原始输入
+    Control+Return: commit_script_text # Ctrl+回车键：上屏变换后输入（经过 preedit_format 转换的）
+    Control+Shift+Return: commit_comment # Ctrl+Shift+回车键：上屏 comment
+    BackSpace: revert # 退格键：向前删除（撤消上次输入）
+    Delete: delete # Delete 键：向后删除
+    Control+BackSpace: back_syllable # Ctrl+退格键：删除一个音节
+    Control+Delete: delete_candidate # Ctrl+Delete键：删除或降权候选项
+    Escape: cancel # Esc 键：取消输入
 
 # 拼写设定
 speller:
