@@ -1,9 +1,0 @@
-var:
-  last_build_time: 1751680297
-  option:
-    ascii_punct: true
-    emoji: true
-    traditionalization: false
-  previously_selected_schema: rime_sleet
-  schema_access_time:
-    rime_sleet: 1751705240
