@@ -11,10 +11,10 @@ import_tables:
   - cn_dicts/ext        # 擴㞡詞庫
   - cn_dicts/duoyin     # 多音詞庫
   - cn_dicts/custom     # 自定義詞庫
-  - cn_dicts/touhou     # 東方詞庫 (未完工)
-# - cn_dicts/hoi4       # 鋼鐵雄心詞庫 (未動工)
-# - cn_dicts/linux      # linux 詞庫 (未動工)
   - cn_dicts/tencent    # 騰訊詞向量詞庫
+  - cn_dicts/touhou     # 東方詞庫 (未完工)
+# - cn_dicts/paradox    # Paradox 詞庫 (未動工)
+# - cn_dicts/linux      # linux 詞庫 (未動工)
   - cn_dicts/zhwiki     # 維基百科詞庫
   - cn_dicts/moegirl    # 萌百詞庫
   - cn_dicts/minecraft  # Minecraft 詞庫
