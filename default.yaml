@@ -25,7 +25,6 @@ switcher:
     # - Alt+grave
   save_options: # 开关记忆（方案中的 switches），从方案选单（而非快捷键）切换时会记住的选项，需要记忆的开关不能设定 reset
     - ascii_punct
-    - traditionalization
     - emoji
     # - kaomoji
     - full_shape
@@ -186,8 +185,6 @@ key_binder:
     # - { when: always, toggle: ascii_mode, accept: Control+Shift+at }            # 切换中英
     - { when: always, toggle: ascii_punct, accept: Control+Shift+3 } # 切换中英标点
     - { when: always, toggle: ascii_punct, accept: Control+Shift+numbersign } # 切换中英标点
-    - { when: always, toggle: traditionalization, accept: Control+Shift+4 } # 切换简繁
-    - { when: always, toggle: traditionalization, accept: Control+Shift+dollar } # 切换简繁
     # - { when: always, toggle: full_shape, accept: Control+Shift+5 }             # 切换全半角
     # - { when: always, toggle: full_shape, accept: Control+Shift+percent }       # 切换全半角
 
@@ -212,7 +209,6 @@ key_binder:
     # - { when: always, accept: Shift+space, toggle: ascii_mode }
     # - { when: always, accept: Control+comma, toggle: full_shape }
     # - { when: always, accept: Control+period, toggle: ascii_punct }
-    # - { when: always, accept: Control+slash, toggle: traditionalization }
 
     # 将小键盘 0~9 . 映射到主键盘，数字金额大写的 Lua 如 R1234.5678 可使用小键盘输入
     - { accept: KP_0, send: 0, when: composing }
