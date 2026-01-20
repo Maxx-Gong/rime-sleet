@@ -64,6 +64,7 @@ engine:
     - affix_segmentor@cangjie_lookup # 倉頡 tag
     - affix_segmentor@easy_en # 中英詞典 tag
     - affix_segmentor@jaroomaji.kana # 仮名 tag
+    - affix_segmentor@add_user_dict # 自造詞 tag
     - punct_segmentor
     - fallback_segmentor
   translators:
@@ -80,6 +81,8 @@ engine:
     - lua_translator@*number_translator # 数字、金额大写
     - lua_translator@*calc_translator # 计算器
     - lua_translator@*force_gc # 暴力 GC
+    - script_translator@user_dict_set
+    - script_translator@add_user_dict
   filters:
     - lua_filter@*corrector # 错音错字提示
     - reverse_lookup_filter@pinyin_reverse_lookup # 拼音反査滤镜
@@ -264,9 +267,10 @@ grammar:
 # 主翻译器，拼音
 translator:
   dictionary: rime_sleet
-  contextual_suggestions: true
+  contextual_suggestions: false
   max_homophones: 5
   max_homographs: 5
+  enable_user_dict: false # 是否开启自动调频
   enable_word_completion: true # 大于 4 音节的词条自动补全，librime > 1.11.2
   spelling_hints: 8 # corrector.lua ：为了让错音错字提示的 Lua 同时适配全拼双拼，将拼音显示在 comment 中
   always_show_comments: true # corrector.lua ：Rime 默认在 preedit 等于 comment 时取消显示 comment，这里强制一直显示，供 corrector.lua 做判断用。
@@ -309,22 +313,22 @@ s2t:
   option_name: s2t # 对应 switches 中的 name
   opencc_config: S2SMTGTCL.json # s2t.json | s2hk.json | s2tw.json | s2twp.json （Rime 内置配置，在程序目录可找到）
   tips: none # 转换提示: all 都显示 | char 仅单字显示 | none 不显示。
-  tags: [abc, number, gregorian_to_lunar] # 限制在对应 tag，不对其他如反查的内容做简繁转换
+  tags: [abc, number, gregorian_to_lunar, add_user_dict] # 限制在对应 tag，不对其他如反查的内容做简繁转换
 s2t_2:
   option_name: s2t_2 # 对应 switches 中的 name
   opencc_config: S2SMTGTC.json # s2t.json | s2hk.json | s2tw.json | s2twp.json （Rime 内置配置，在程序目录可找到）
   tips: none # 转换提示: all 都显示 | char 仅单字显示 | none 不显示。
-  tags: [abc, number, gregorian_to_lunar] # 限制在对应 tag，不对其他如反查的内容做简繁转换
+  tags: [abc, number, gregorian_to_lunar, add_user_dict] # 限制在对应 tag，不对其他如反查的内容做简繁转换
 s2tw:
   option_name: s2tw # 对应 switches 中的 name
   opencc_config: s2tw.json # s2t.json | s2hk.json | s2tw.json | s2twp.json （Rime 内置配置，在程序目录可找到）
   tips: none # 转换提示: all 都显示 | char 仅单字显示 | none 不显示。
-  tags: [abc, number, gregorian_to_lunar] # 限制在对应 tag，不对其他如反查的内容做简繁转换
+  tags: [abc, number, gregorian_to_lunar, add_user_dict] # 限制在对应 tag，不对其他如反查的内容做简繁转换
 s2jp:
   option_name: s2jp # 对应 switches 中的 name
   opencc_config: s2jp.json # s2t.json | s2hk.json | s2tw.json | s2twp.json （Rime 内置配置，在程序目录可找到）
   tips: none # 转换提示: all 都显示 | char 仅单字显示 | none 不显示。
-  tags: [abc, number, gregorian_to_lunar] # 限制在对应 tag，不对其他如反查的内容做简繁转换
+  tags: [abc, number, gregorian_to_lunar, add_user_dict] # 限制在对应 tag，不对其他如反查的内容做简繁转换
 
 # 标点符号
 # punctuator 下面有三个子项：
@@ -442,6 +446,37 @@ eng_chi_reverse_lookup:
 #    - xform/^([^﹙])/ $1/
 #    - xform/^((?:[\0-\x7F\xC2-\xFD][\x80-\xBF]*){30})(?:[\0-\x7F\xC2-\xFD][\x80-\xBF]*)+$/$1 ……《略》/
 
+user_dict_set:
+  dictionary: rime_sleet
+  initial_quality: 0
+  enable_completion: true
+  enable_sentence: false
+  ##  默认为不超过 2 个字的候选项显示输入码；将 2 改为 0 可关闭编码提示，
+  ##  改为 1 则是只显示单字的输入码，依此类推。
+  spelling_hints: 1
+  enable_user_dict: true # 是否开启自动调频
+  user_dict: user.custom.dict
+  db_class: tabledb
+
+# 自定义词典加词
+add_user_dict:
+  tag: add_user_dict
+  dictionary: rime_sleet
+  initial_quality: -1
+  user_dict: user.custom.dict
+  # ↓ 用户词典格式，tabledb（文本） 或 userdb （二进制）。
+  db_class: tabledb
+  enable_completion: true
+  enable_encoder: true # 是否开启自动造词〔仅 table_translator 有效〕
+  enable_sentence: true #  是否开启自动造句
+  enable_user_dict: true # 是否开启用户词典
+  encode_commit_history: false # 是否对已上屛词自动成词〔仅 table_translator 有效〕
+  prefix: "u+"
+  tips: "《自造》▶"
+  preedit_format:
+    - xform/^/《自造》▶ /
+    - 'xform/\\/ /'
+
 # 处理符合特定规则的输入码，如网址、反查
 recognizer:
   import_preset: default # 从 default.yaml 继承通用的
@@ -455,6 +490,7 @@ recognizer:
     gregorian_to_lunar: "^N[0-9]{1,8}" # 脚本将自动获取第 2 个字符 N 作为触发前缀，响应 lua_translator@*lunar，公历转农历，输入 N20240115 得到「二〇二三年腊月初五」
     easy_en: "^i[a-z,./;'-]*$"
     jaroomaji.kana: "^I[a-zA-Z,./;'-]*$"
+    add_user_dict: "^u\\+[A-Za-z]*$" # 造詞
 
 # 从 default 继承快捷键
 key_binder:
