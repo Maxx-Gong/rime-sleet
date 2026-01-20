@@ -16,7 +16,7 @@ import_tables:
 # - cn_dicts/paradox    # Paradox 詞庫 (未動工)
 # - cn_dicts/linux      # linux 詞庫 (未動工)
   - cn_dicts/zhwiki     # 維基百科詞庫
-  - cn_dicts/moegirl    # 萌百詞庫
+  - cn_dicts/moe        # 萌百詞庫
   - cn_dicts/minecraft  # Minecraft 詞庫
   - cn_dicts/shici      # 詩詞詞庫
   - cn_dicts/diming     # 地名詞庫
