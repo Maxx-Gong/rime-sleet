@@ -13,7 +13,6 @@
   - 自定義詞庫
   - 東方 Project (自製, WIP)
   - Paradox (自製, WIP)
-  - Linux (自製, WIP)
 - 使用 萬象語灋模型 (amzxyz/RIME-LMDG)
 - 移除挂接方案
   - melt_eng (中英混輸方案, 妨礙鍵位修改與個人潔癖)
