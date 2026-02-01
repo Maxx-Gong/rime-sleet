@@ -247,7 +247,8 @@ pin_cand_filter:
   # - sma	什么啊
 
 # 語灋模型
-#grammar:
+grammar:
+  language: zh-hans-t-huayu-v7-bgw
 #  language: wanxiang-lts-zh-hans
 #  collocation_max_length: 8 #命中的最长词组
 #  collocation_min_length: 3 #命中的最短词组，搭配词频健全的词库时候应当最小值设为3避开2字高频词
@@ -259,9 +260,9 @@ pin_cand_filter:
 # 主翻译器，拼音
 translator:
   dictionary: rime_sleet
-  contextual_suggestions: false
-  max_homophones: 5
-  max_homographs: 5
+  contextual_suggestions: true
+  max_homophones: 7
+  max_homographs: 7
   enable_user_dict: false # 是否开启自动调频
   enable_word_completion: true # 大于 4 音节的词条自动补全，librime > 1.11.2
   prism: rime_sleet_flypy # 多方案共用一个词库时，为避免冲突，需要用 prism 指定一个名字。

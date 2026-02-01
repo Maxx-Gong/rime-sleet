@@ -13,14 +13,14 @@
   - 自定義詞庫
   - 東方 Project (自製, WIP)
   - Paradox (自製, WIP)
-- ~~使用 萬象語灋模型 (amzxyz/RIME-LMDG)~~ 由于效果不佳, 已默認停用.
+- 默認關閉自動調頻, 改爲使用自造詞庫
+- 新增 萬象語灋模型 (amzxyz/RIME-LMDG) 與 華宇語灋模型 (默認使用華宇模型).
 - 移除挂接方案
   - melt_eng (中英混輸方案, 妨礙鍵位修改與個人潔癖)
 - 新增挂接方案
   - cangjie5 (反査) (oniondelta/Onion_Rime_Files) (字庫來源于 Fitzgerald-Porthmouth-Koenigsegg/Cangjie5_Integration)
   - easy_en (BlindingDark/rime-easy-en) (詞庫及英漢反査來源于 oniondelta/Onion_Rime_Files)
   - jaroomaji.kana (lazyfoxchan/rime-jaroomaji)
-- 修改 custom_phrase (妨礙鍵位修改)
 
 ## 後續計劃
 
