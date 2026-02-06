@@ -25,7 +25,6 @@ sort: by_weight
 疑似有点	yi si you dian	100
 唾弃憎恶	tuo qi zeng wu	100
 深居內陆	shen ju nei lu	100
-迫真	po zhen	100
 大嘘	da xu	100
 望周知	wang zhou zhi	100
 完卖	wan mai	100
@@ -33,9 +32,10 @@ sort: by_weight
 难评	nan ping	100
 急乐典孝绷	ji le dian xiao beng	100
 赢润麻摆寄	ying run ma bai ji	100
-动帧格	dong zhen ge	100
+动帧格	dong zhen ge	50
 镆䥺剑	mo ye jian	100
 擸㩑	la sa	100
 你按	ni an	75
 在麼	zai me	100
 玉兔毫	yu tu hao	100
+是的	shi de	20000
